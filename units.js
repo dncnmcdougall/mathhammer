@@ -1,0 +1,110 @@
+import {none} from './const.js';
+
+export default {
+    intercessor: {
+        name: 'intercessor',
+        Ws: 3,
+        Bs: 3,
+        S: 4,
+        T: 4,
+        W: 2,
+        A: 2,
+        Sv: 3,
+    },
+    eliminator: {
+        name: 'eliminator',
+        Ws: 3,
+        Bs: 2,
+        S: 4,
+        T: 4,
+        W: 2,
+        A: 2,
+        Sv: 3,
+    },
+    outrider: {
+        name: 'outrider',
+        Ws: 3,
+        Bs: 3,
+        S: 4,
+        T: 5,
+        W: 4,
+        A: 2,
+        Sv: 3,
+    },
+    vDreadnought: {
+        name: 'v dreadnought',
+        Ws: 2,
+        Bs: 2,
+        S: 6,
+        T: 7,
+        W: 8,
+        A: 4,
+        Sv: 3,
+        mods: {
+            D: '-1'
+        }
+    },
+    captain: {
+        name: 'captain',
+        Ws: 2,
+        Bs: 2,
+        S: 4,
+        T: 4,
+        W: 6,
+        A: 5,
+        Sv: 2,
+        Inv: 4
+    },
+    necronOverlord: {
+        name:'overlord',
+        Ws: 2,
+        Bs: 2,
+        S: 5,
+        T: 5,
+        W: 5,
+        A: 3,
+        Sv: 3,
+        Inv: 4
+    },
+    necronSkDestroyer: {
+        name: 'skorpeck destroyer',
+        Ws: 3,
+        Bs: 3,
+        S: 5,
+        T: 5,
+        W: 3,
+        A: 3,
+        Sv: 3,
+    },
+    necronWarrior: {
+        name: 'necron',
+        Ws: 3,
+        Bs: 3,
+        S: 4,
+        T: 4,
+        W: 1,
+        A: 1,
+        Sv: 4,
+    },
+    necronScarab: {
+        name:'scarab',
+        Ws: 4,
+        Bs: none,
+        S: 3,
+        T: 3,
+        W: 4,
+        A: 4,
+        Sv: 6,
+    },
+    deathguardCultist: {
+        name: 'cultist',
+        Ws: 4,
+        Bs: 4,
+        S: 3,
+        T: 3,
+        W: 1,
+        A: 1,
+        Sv: 6,
+    }
+
+};
